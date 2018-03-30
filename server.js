@@ -16,6 +16,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
+// process.env.PORT is heroku port number which can change
 const port = process.env.PORT || '3000'
 app.set('port', port);
 
