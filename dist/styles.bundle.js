@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "\n@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');\n/* You can add global styles to this file, and also import other style files */\nhtml{\n    height:100%;\n    padding:0px;\n    margin:0px;\n}\nbody{\n    font-family: 'Comfortaa', cursive;\n    background-color:rgb(74, 169, 233);\n    height: 100%;\n    padding:0px;\n    margin:0px;\n}\ndiv{\n    width:100%;\n    height:100%;\n    padding:0px;\n    margin:0px;\n}"
+module.exports = "\n@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');\n/* You can add global styles to this file, and also import other style files */\nhtml{\n    height:100%;\n    padding:0px;\n    margin:0px;\n}\nbody{\n    font-family: 'Comfortaa', cursive;\n    background-color:rgb(74, 169, 233);\n    height: 100%;\n    padding:0px;\n    margin:0px;\n}\ndiv{\n    width:100%;\n    height:100%;\n    padding:0px;\n    margin:0px;\n}\nh1,h2,h3,h4,h5,h6{\n    padding:0px;\n    margin:0px;\n}"
 
 /***/ }),
 

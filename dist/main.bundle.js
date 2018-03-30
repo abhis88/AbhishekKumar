@@ -20,14 +20,14 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "div.hello{\n    text-align:center;\n    color:white;\n    width:50%;\n    height: 100%;\n    float:left;\n}\n\ndiv.hello.left{\n    font-size: 3rem;\n}\n\ndiv.hello.left p{\n    font-size:1em;\n}\n\ndiv.hello.right-image{\n    background-image: url('headshot.a6ec017e4e2c7fe4443b.jpg');\n\n    /* Full height */\n    height: 100%; \n\n    /* Center and scale the image nicely */\n    background-repeat: no-repeat;\n    background-size: cover;\n}"
+module.exports = "div.hello{\n    text-align:center;\n    color:white;\n    width:50%;\n    height: 100%;\n    float:left;\n}\n\ndiv.hello.left{\n    font-size: 3rem;\n}\n\ndiv.hello.left h1{\n    padding-top:20%;\n}\n\ndiv.hello.left p{\n    font-size:1em;\n    margin:10px;\n}\n\ndiv.hello.right-image{\n    background-image: url('headshot_wb.16cc589ac1b50589dac3.png');\n\n    /* Full height */\n    height: 100%; \n\n    /* Center and scale the image nicely */\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\ndiv.hello.left div.skills{\n    margin-top:10%;\n    height:auto;\n}\n\ndiv.skills div{\n    height:35px;\n    float:left;\n    width:30%;\n    margin:10px;\n    background-color: #0b5ca8;\n    border-radius: 5px;\n}\n\ndiv.skills div p{\n    font-size: 0.3em;\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div>\n  <!-- Left Div -->\n  <div class=\"hello left\">\n    <h1>\n      hello\n    </h1>\n    <p>\n      I am Abhishek Kumar.\n    </p>\n  </div>\n\n  <!-- Right Div -->\n  <div class=\"hello right-image\">\n\n  </div>\n    \n</div>\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div>\n  <!-- Left Div -->\n  <div class=\"hello left\">\n    <h1>\n      hello\n    </h1>\n    <p>\n      I am Abhishek Kumar.\n    </p>\n\n    <div class=\"skills\">\n        <div>\n            <p><b>Blockchain</b> Ethusiast</p>\n        </div>\n        <div>\n            <p><strong>Cloud Architect</strong></p>\n        </div>\n        <div>\n            <p><strong>Modern Web Apps</strong></p>\n        </div>\n        <div>\n            <p><strong>Angular5 / Node.js</strong></p>\n        </div>\n        <div>\n            <p><strong>DevOps - CI/CD</strong></p>\n        </div>\n        <div>\n            <p><strong>Data Engineer</strong></p>\n        </div>\n\n    </div>\n  </div>\n\n  <!-- Right Div -->\n  <div class=\"hello right-image\">\n\n  </div>\n    \n</div>\n"
 
 /***/ }),
 

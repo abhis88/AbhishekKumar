@@ -10,12 +10,18 @@ div.hello.left{
     font-size: 3rem;
 }
 
-div.hello.left p{
-    font-size:1em;
+div.hello.left h1{
+    padding-top:20%;
 }
 
+div.hello.left p{
+    font-size:1em;
+    margin:10px;
+}
+
+
 div.hello.right-image{
-    background-image: url(../assets/headshot.jpg);
+    background-image: url(../assets/headshot_wb.png);
 
     /* Full height */
     height: 100%; 
@@ -23,4 +29,22 @@ div.hello.right-image{
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div.hello.left div.skills{
+    margin-top:10%;
+    height:auto;
+}
+
+div.skills div{
+    height:35px;
+    float:left;
+    width:30%;
+    margin:10px;
+    background-color: #0b5ca8;
+    border-radius: 5px;
+}
+
+div.skills div p{
+    font-size: 0.3em;
 }
