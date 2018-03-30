@@ -1,0 +1,26 @@
+div.hello{
+    text-align:center;
+    color:white;
+    width:50%;
+    height: 100%;
+    float:left;
+}
+
+div.hello.left{
+    font-size: 3rem;
+}
+
+div.hello.left p{
+    font-size:1em;
+}
+
+div.hello.right-image{
+    background-image: url(../assets/headshot.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}

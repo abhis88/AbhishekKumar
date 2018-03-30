@@ -20,14 +20,14 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "div.hello{\n    text-align:center;\n    color:white;\n    width:50%;\n    height: 100%;\n    float:left;\n}\n\ndiv.hello.left{\n    font-size: 3rem;\n}\n\ndiv.hello.left p{\n    font-size:1em;\n}\n\ndiv.hello.right-image{\n    background-image: url('headshot.a6ec017e4e2c7fe4443b.jpg');\n\n    /* Full height */\n    height: 100%; \n\n    /* Center and scale the image nicely */\n    background-repeat: no-repeat;\n    background-size: cover;\n}"
 
 /***/ }),
 
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Abhishek Kumar\n  </h1>\n</div>\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div>\n  <!-- Left Div -->\n  <div class=\"hello left\">\n    <h1>\n      hello\n    </h1>\n    <p>\n      I am Abhishek Kumar.\n    </p>\n  </div>\n\n  <!-- Right Div -->\n  <div class=\"hello right-image\">\n\n  </div>\n    \n</div>\n"
 
 /***/ }),
 
