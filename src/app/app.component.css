@@ -1,6 +1,6 @@
 div.hello{
     text-align:center;
-    color:white;
+    color:black;
     width:50%;
     height: 100%;
     float:left;
@@ -11,11 +11,11 @@ div.hello.left{
 }
 
 div.hello.left h1{
-    padding-top:20%;
+    padding-top:30%;
 }
 
 div.hello.left p{
-    font-size:1em;
+    font-size:0.8em;
     margin:10px;
 }
 
@@ -47,4 +47,24 @@ div.skills div{
 
 div.skills div p{
     font-size: 0.3em;
+}
+
+/*
+@keyframes text-color-change {
+    0% {
+        color: rgb(0, 0, 0);
+    }
+    100% {
+        color:rgb(255, 255, 255);
+    }
+}*/
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 760px) and (max-width: 1100px) {
+    div.hello.left p{
+        font-size:0.6em;
+        margin:10px;
+        margin-left:20px;
+    }
 }

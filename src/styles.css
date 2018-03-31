@@ -9,10 +9,11 @@ html{
 
 body{
     font-family: 'Comfortaa', cursive;
-    background-color:rgb(74, 169, 233);
+    background-color:rgb(255, 255, 255);
     height: 100%;
     padding:0px;
     margin:0px;
+    /*animation: pulse 10s;*/
 }
 
 div{
@@ -26,3 +27,12 @@ h1,h2,h3,h4,h5,h6{
     padding:0px;
     margin:0px;
 }
+  /*
+@keyframes pulse {
+0% {
+    background-color: rgb(255, 255, 255);
+}
+100% {
+    background-color:rgb(74, 169, 233);
+}
+}*/
