@@ -12,7 +12,6 @@ div.hello.left{
 
 div.hello.left h1{
     padding-top:30%;
-    transition-delay: 2s;
 }
 
 div.hello.left p{
